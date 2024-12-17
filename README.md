@@ -31,6 +31,12 @@ Build Using:
 
 Output under `app/build/outputs/`
 
+Note: Use this command to set the log level to DEBUG:
+```
+adb shell setprop log.tag.HeatTalk DEBUG
+adb shell getprop log.tag.HeatTalk
+```
+
 ## Getting Started
 
 1) Install the application on the device.

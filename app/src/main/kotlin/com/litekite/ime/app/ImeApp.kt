@@ -32,7 +32,7 @@ class ImeApp : Application() {
 
     companion object {
 
-        val TAG: String = ImeApp::class.java.simpleName
+        val TAG: String = "HeatTalk"
 
         /**
          * Logs messages for Debugging Purposes.

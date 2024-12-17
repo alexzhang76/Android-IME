@@ -37,10 +37,20 @@ android {
         androidTest.assets.srcDirs += files("$projectDir/schemas".toString())
     }
     buildTypes {
+        debug {
+            debuggable true
+            manifestPlaceholders = [
+                logLevel: 'DEBUG'
+            ]
+        }
         release {
+            debuggable false
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [
+                logLevel: 'ERROR'
+            ]
         }
     }
     buildFeatures {
