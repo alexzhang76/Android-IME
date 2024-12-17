@@ -20,6 +20,17 @@
     <img src="https://github.com/LiteKite/Android-IME/workflows/build/badge.svg?branch=main" />
 </p>
 
+## Latest tested on Android 13
+
+Build Using:
+- Android Studio 2024.2.1 Patch 3
+- Gradle 7.1.1 (No changes)
+- MS OpenJDK 11.0.25 (No changes. Requiring explicit installation and setting in Android Studio / Build, ... / Build Tools / Gradle)
+- Kotlin: 1.4.31 (No changes)
+- Groovy: 3.0.7 (No changes)
+
+Output under `app/build/outputs/`
+
 ## Getting Started
 
 1) Install the application on the device.

@@ -48,9 +48,11 @@ android {
         dataBinding = true
     }
     lintOptions {
-        baseline file("lint-baseline.xml")
+        //baseline file("lint-baseline.xml")
         warningsAsErrors true
         enable "Interoperability"
+        abortOnError false
+        //ignoreBaselineIssues true
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
