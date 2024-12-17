@@ -16,7 +16,7 @@
 -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
 
-    <string name="app_name">kBoard</string>
+    <string name="app_name">HeatTalk</string>
 
     <!-- Description for English (US) keyboard subtype [CHAR LIMIT=25]
     (US) should be an abbreviation of United States to fit in the CHAR LIMIT. -->
